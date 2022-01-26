@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href = "dom.css" type="text/css" rel="stylesheet">
+    <script src="dom.js"></script>
+    <script src="test.js"></script>
+</head>
+<body>
+
+    <section id="s15">
+        <h1>4. 스타일 다루기 : 값 입력과 동적으로 박스 스타일 변경하기</h1>
+        <div class="box">
+            <div class="tool-box">
+                <div>
+                    <label for="">style : <span class="border-input-style">solid</span></label>
+                    <select class="border-style">
+                        <option value="solid">solid</option>
+                        <option value="dashed">dashed</option>
+                        <option value="dotted">dotted</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="">width : <span class="border-input-pixel">1</span>px</label>
+                    <input class="border-input" type="range" min="0" max="100" value="1">
+                </div>
+                <div>
+                    <label for="">radius : <span class="radius-input-pixel">0</span>px</label>
+                    <input class="radius-input" type="range" min="0" max="100" value="1">
+                </div>
+                <div>
+                    <label for="">color : <span class="color-input-text">black</span></label>
+                    <input class="color-input" type="color" value="#000000">
+                </div>
+                <div>
+                    <label for="">css style : </label>
+                    <span></span>
+                </div>
+            </div>
+            <div class="preview-box">
+                <div class="item"></div>
+            </div>
+        </div>
+    </section>
+
+        <section id ="s14">
+            <div class="box">
+                <input type="text" class="txtInfo" value="0" dir="rtl">
+                <button class="btn1" value = "1">1</button>
+                <button class="btn2" value = "2">2</button>
+                <button class="btn3" value = "3">3</button>
+                <button class="btn4" value = "4">4</button>
+                <button class="btn5" value = "5">5</button>
+                <button class="btn6" value = "6">6</button>
+                <button class="btn7" value = "7">7</button>
+                <button class="btn8" value = "8">8</button>
+                <button class="btn9" value = "9">9</button>
+                <button class="btn0" value = "0">0</button>
+                <button class="plus" value = "+">+</button>
+                <button class="minus" value = "-">-</button>
+                <button class="multiple" value = "*">*</button>
+                <button class="divide" value = "/">/</button>
+            </div>
+        </section>
+        <section id="s13">
+            <div class="box">
+                <input type="text" class="txtInfo" value="0" dir="rtl">
+                <button class="btn1" value = "1">1</button>
+                <button class="btn2" value = "2">2</button>
+                <button class="btn3" value = "3">3</button>
+                <button class="btn4" value = "4">4</button>
+                <button class="btn5" value = "5">5</button>
+                <button class="btn6" value = "6">6</button>
+                <button class="btn7" value = "7">7</button>
+                <button class="btn8" value = "8">8</button>
+                <button class="btn9" value = "9">9</button>
+                <button class="btn0" value = "0">0</button>
+                <button class="plus" value = "+">+</button>
+                <button class="minus" value = "-">-</button>
+                <button class="multiple" value = "*">*</button>
+                <button class="divide" value = "/">/</button>
+            </div>
+        </section>
+        <section id="s12">
+            <input type="text" class="txtInfo" value="0">
+            <button class="btn1" value = "1">1</button>
+            <button class="btn2" value = "2">2</button>
+            <button class="btn3" value = "3">3</button>
+            <button class="btn4" value = "4">4</button>
+            <button class="btn5" value = "5">5</button>
+            <button class="plus" value = "+">덧셈</button>
+            <button class="minus" value = "-">뺄셈</button>
+            <button class="multiple" value = "*">곱셈</button>
+            <button class="div" value = "/">나눗셈</button>
+        </section>
+        <section id="s11">
+            <input type="text" class="txtInfo" value="0">
+            <button class="btn1" value = "1">1</button>
+            <button class="btn2" value = "2">2</button>
+            <button class="btn3" value = "3">3</button>
+            <button class="btn4" value = "4">4</button>
+            <button class="btn5" value = "5">5</button>
+            <button class="plus" value = "+">덧셈</button>
+        </section>
+        <section id="s10">
+            <input class = "x-input" type="text">
+            <input class = "y-input" type="text">
+            <button class ="btn">덧셈</button>
+        </section>
+        <section id="s9">
+            <input class="txtBox" dir="rtl" type="text">
+            <button class="btn" value ="1">1</button>
+            <button class="btn" value ="2">2</button>
+            <button class="btn" value ="3">3</button>
+            <button class="btn" value ="4">4</button>
+            <button class="puls" value ="+">+</button>
+            <button class="minus" value ="-">-</button>
+            <button class="equal" value ="=">=</button>
+        </section>
+        <section id="s8">
+            <div>
+                <input type="text">
+                <button>버튼</button>
+            </div>
+        </section>
+        <section id="s7">
+            <div>
+                <h1 style = "background-color:blue" onclick="alert('상속')";>상속</h1>
+            </div>
+            <div class= "divBox" onblur="">
+                <button>b</button>
+                <input type="text" value = "1">
+                <h1 style="background-color: red;">짱구</h1>
+            </div>
+            <div onclick ="">
+                <button> </button>
+                <input>
+                <h1></h1>
+            </div>
+        </section>
+
+        <section id="s6">
+            <div class="div">
+                <input class="showBox" type="text" value="0" dir="rtl">
+                <input class="num" type="button" value="1">
+                <input class="num" type="button" value="2">
+                <input class="num" type="button" value="3">
+                <input class="num" type="button" value="4">
+                <input class="num" type="button" value="5">
+                <input class="plus" type="button" value="+">
+                <input class="minus" type="button" value="-">
+                <input class="multiple" type="button" value="*">
+                <input class="diva" type="button" value="/">
+                <input class="equal" type="button" value="=">
+            </div>
+        </section>
+        <section id="s5">
+            <div class="div">
+                <input class="showBox" type="text" value="0" dir="rtl">
+                <input class="num" type="button" value="1">
+                <input class="num" type="button" value="2">
+                <input class="num" type="button" value="3">
+                <input class="num" type="button" value="4">
+                <input class="num" type="button" value="5">
+                <input class="plus" type="button" value="+">
+                <input class="minus" type="button" value="-">
+                <input class="multiple" type="button" value="*">
+                <input class="diva" type="button" value="/">
+                <input class="equal" type="button" value="=">
+            </div>
+        </section>
+        <section id="s4">
+            <div class="div">
+                <input class="showBox" type="text" value="0" dir="rtl">
+                <input class="num1" type="button" value="1">
+                <input class="num2" type="button" value="2">
+                <input class="num3" type="button" value="3">
+                <input class="num4" type="button" value="4">
+                <input class="num5" type="button" value="5">
+                <input class="num6" type="button" value="6">
+                <input class="num7" type="button" value="7">
+                <input class="num8" type="button" value="8">
+                <input class="num9" type="button" value="9">
+                <input class="num0" type="button" value="0">
+                <input class="plus" type="button" value="+">
+                <input class="minus" type="button" value="-">
+                <input class="multiple" type="button" value="*">
+                <input class="diva" type="button" value="/">
+                <input class="equal" type="button" value="=">
+            </div>
+        </section>
+        <section id="s3">
+            <div class="div">
+                <input class="x-input" type="text">
+                <input class="y-input" type="text">
+                <input class="plus" type="button" value="더하기">
+                <span class="result">결과 값: 0</span>
+            </div>
+        </section>
+        <section id="s2">
+            <div class="div">
+                <input class="checkButton" type="button" value="check">
+                <input class="show" type="text">
+            </div>
+        </section>
+        <section id="s1">
+            <div class="div">
+                <input class="checkButton" type="button" value="check">
+                <input class="show" type="text">
+            </div>
+        </section>
+</body>
+</html>
